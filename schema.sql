@@ -3,5 +3,6 @@ CREATE TABLE installations (
    package   tinytext,
    os        tinytext,
    version   tinytext,
+   host		tinytext,
    tstamp    timestamp DEFAULT "CURRENT_TIMESTAMP"
 )
