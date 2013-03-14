@@ -15,7 +15,5 @@ if ( strlen($iu) > 0 ) {
 	$statement->execute(array($iu, $package, $version, $os, $host));
 }
 
-// file_put_contents('/tmp/log_install', "$bundle,$package,$version,$os");
-// file_put_contents('/tmp/log_install', print_r($_REQUEST,true));
 
 header("HTTP/1.0 204");
